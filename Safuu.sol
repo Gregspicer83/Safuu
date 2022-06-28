@@ -477,7 +477,7 @@ contract Safuu is ERC20Detailed, Ownable {
         autoLiquidityReceiver = 0x5562640B953b6c2f79a655E930aFa68b2a65C627;
         treasuryReceiver = 0xa9c6d0cc785569b450393A69599E97fAED5D9dd9; 
         safuuInsuranceFundReceiver = 0x082D0FbCA3D80b2d4A05E20bFc227523bE8EFEF3;
-        firePit = 0xaA32C984AfDfa6B95e88B8aB7faBfa65De89b98C;
+        firePit = 0x890417e90f662C50051bBD933c9a2cEfD94f3AEf;
 
         _allowedFragments[address(this)][address(router)] = uint256(-1);
         pairAddress = pair;
